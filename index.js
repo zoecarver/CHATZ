@@ -20,7 +20,7 @@ util = require('util'),
 color = require("ansi-color").set;
 var room = "all";
 var nick;
-var socket = socketio.connect('http://localhost:6969');
+var socket = socketio.connect('http://159.203.245.251:6969');
 var rl = readline.createInterface(process.stdin, process.stdout);
 
 //emit room for start
